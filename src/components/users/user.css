@@ -1,0 +1,82 @@
+.divContainer {
+    margin-left: 16%;
+  }
+
+
+ 
+  
+  .rotated {
+    height: 450px;
+    width: 400px;
+    transform: rotate(270deg); /* Equal to rotateZ(45deg) */
+    padding-left: 5%;
+    margin-left: 25%;
+  }
+  
+  .centerBtn{
+    align-items: center;
+    margin-left: 40%;
+  }  
+  .buttonTop{
+  margin-top: 5%;
+  margin-left: -25px;
+  position: relative;
+  height: 20px !important;
+  width: 25px !important;
+  }
+.tableBack{
+  background-color: #a51810;
+}
+.tableBackRes{
+  background-color: #666666;
+}
+
+.borderTableTL{
+  border-top-left-radius: 15px;
+  border-top-rigth-radius: 15px;
+}
+.borderTableTR{
+  border-top-right-radius: 15px;
+}
+
+.borderTableBL{
+  border-bottom-left-radius: 15px;
+}
+.borderTableBR{
+  border-bottom-right-radius: 15px;
+}
+
+
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-pink input.form-control[type=text] {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+}
+.active-purple-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-purple input.form-control[type=text] {
+  border-bottom: 1px solid #ce93d8;
+  box-shadow: 0 1px 0 0 #ce93d8;
+}
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan input.form-control[type=text] {
+  border-bottom: 1px solid #4dd0e1;
+  box-shadow: 0 1px 0 0 #4dd0e1;
+}
+.active-cyan .fa, .active-cyan-2 .fa {
+  color: #4dd0e1;
+}
+.active-purple .fa, .active-purple-2 .fa {
+  color: #ce93d8;
+}
+.active-pink .fa, .active-pink-2 .fa {
+  color: #f48fb1;
+}

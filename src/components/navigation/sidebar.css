@@ -1,0 +1,13 @@
+.userImg{
+    height: 70px;
+    width: 70px;
+    margin-left: 40%;
+}
+.divUserPanel{
+  margin-right: 10%;
+}
+
+hr.solid {
+    border-top: 3px solid #999;
+    border-radius: 15px;
+}
